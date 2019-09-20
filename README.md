@@ -1,0 +1,2 @@
+# ingress
+sealos install contour
