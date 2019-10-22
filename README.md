@@ -1,2 +1,2 @@
-# ingress
-sealos install contour
+# tekton
+sealos install tekton

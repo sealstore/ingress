@@ -1,0 +1,4 @@
+[
+  "gcr.io/heptio-images/contour:v0.15.2",
+  "docker.io/envoyproxy/envoy:v1.11.2"
+]
