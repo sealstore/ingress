@@ -1,2 +1,2 @@
 # ingress
-sealos install contour
+sealos install --pkg-url contour.tar
