@@ -1,2 +1,2 @@
-# tekton
-sealos install tekton
+# contour
+sealos install contour
