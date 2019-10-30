@@ -1,6 +1,6 @@
 # ingress
 
-- [contour](https://github.com/sealstore/ingress/tree/contour)
+- [contour](https://github.com/sealstore/ingress/tree/contour) 是基于Envoy实现的ingress controller,不仅支持Ingress还支持IngressRouter，功能更为强大，且Envoy自身的配置发现能力更强，是本人极为推荐的一个Ingress controller.
 
 
 ## 使用方法
