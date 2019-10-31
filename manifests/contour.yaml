@@ -282,7 +282,6 @@ spec:
     spec:
       containers:
         - image: gcr.io/heptio-images/contour:v0.15.2
-          imagePullPolicy: Always
           name: contour
           command: ["contour"]
           args:
@@ -350,7 +349,6 @@ spec:
                   - '>/dev/tcp/localhost/9001'
       initContainers:
         - image: gcr.io/heptio-images/contour:v0.15.2
-          imagePullPolicy: Always
           name: envoy-initconfig
           command: ["contour"]
           args:
