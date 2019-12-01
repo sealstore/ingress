@@ -283,6 +283,7 @@ spec:
       containers:
         - image: gcr.io/heptio-images/contour:v0.15.2
           name: contour
+          imagePullPolicy: IfNotPresent
           command: ["contour"]
           args:
             - serve
@@ -304,6 +305,7 @@ spec:
               mountPath: /config
               readOnly: true
         - image: docker.io/envoyproxy/envoy:v1.11.2
+          imagePullPolicy: IfNotPresent
           name: envoy
           ports:
             - containerPort: 8080
@@ -349,6 +351,7 @@ spec:
                   - '>/dev/tcp/localhost/9001'
       initContainers:
         - image: gcr.io/heptio-images/contour:v0.15.2
+          imagePullPolicy: IfNotPresent
           name: envoy-initconfig
           command: ["contour"]
           args:
