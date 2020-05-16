@@ -9,7 +9,7 @@
 本地拉取(先到[release页面](https://github.com/sealstore/ingress/releases)下载好tar包到本地)：
 ```
 wget https://github.com/sealstore/ingress/releases/download/v0.15.2/contour.tar
-sealos install --pkg-url dashboard.tar
+sealos install --pkg-url contour.tar
 ```
 或者远程拉取：
 ```
